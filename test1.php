@@ -19,9 +19,9 @@ $t1 = time();
 for ($i = 0; $i <= 1000; $i++) {
     $codes[] = gen_num(16);
 }
+
 $t2 = time();
-echo $t2 - $t1;
-echo "<pre>";
+echo $t2 - $t1 . "<pre>";
 print_r($codes);
 
 $t1 = time();
