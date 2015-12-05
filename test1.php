@@ -65,3 +65,4 @@ $t1 = time();
 for ($i = 0; $i <= 1000; $i++) {
     $codes[] = gen_num(16);
 }
+echo "123 test hello";
